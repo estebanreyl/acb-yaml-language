@@ -1,0 +1,111 @@
+{
+	"scopeName" : "text.yaml",
+	"fileTypes": ["acb.yaml"],
+	"name": "acb Coloring",
+	"patterns":
+	[
+        {
+			"comment": "version: string (optional)",
+			"match": "version",
+			"name": "entity.name.constantd"
+        },
+        {
+			"comment": "stepTimeout: int (optional)",
+			"match": "stepTimeout",
+			"name": "entity.name.constant"
+        },
+        {
+			"comment": "stepTimeout: int (optional)",
+			"match": "totalTimeout",
+			"name": "entity.name.constant"
+        },
+        {
+			"comment": "id: string (optional)",
+			"match": "steps",
+			"name": "entity.name.function"
+		},
+		{
+			"comment": "id: string (optional)",
+			"match": "id",
+			"name": "entity.name.type"
+		},
+		{
+			"comment": "cmd: string (optional)",
+			"match": "cmd",
+			"name": "entity.name.type"
+		},
+		{
+			"comment": "build: string (optional) Takes precedence over cmd. Build is required if cmd is not present.",
+			"match": "build",
+			"name": "entity.name.type"
+		},
+		{
+			"comment": "push: string (optional)",
+			"match": "push",
+			"name": "entity.name.type"
+		},
+		{
+			"comment": "workingDirectory: string (optional)",
+			"match": "workingDirectory",
+			"name": "entity.name.type"
+		},
+		{
+			"comment": "entryPoint: string (optional)",
+			"match": "entryPoint",
+			"name": "entity.name.type"
+		},
+		{
+			"comment": "env: [string, string, ...] (optional)",
+			"match": "env",
+			"name": "entity.name.type"
+		},
+		{
+			"comment": "ports: [string, string, ...] (optional)",
+			"match": "ports",
+			"name": "entity.name.type"
+		},
+		{
+			"comment": "when: [string, string, ...] (optional)",
+			"match": "when",
+			"name": "entity.name.type"
+		},
+		{
+			"comment": "exitedWith: [int, int, ...] (optional)",
+			"match": "exitedWith",
+			"name": "entity.name.type"
+		},
+		{
+			"comment": "exitedWithout: [int, int, ...] (optional)",
+			"match": "exitedWithout",
+			"name": "entity.name.type"
+		},
+		{
+			"comment": "timeout: int (in seconds) (optional)",
+			"match": "timeout",
+			"name": "entity.name.type"
+		},
+		{
+			"comment": "keep: bool (optional)",
+			"match": "keep",
+			"name": "entity.name.type"
+		},
+		{
+			"comment": "detach: bool (optional)",
+			"match": "detach",
+			"name": "entity.name.type"
+		},
+		{
+			"comment": "startDelay: int (in seconds) (optional)",
+			"match": "startDelay",
+			"name": "entity.name.type"
+		},
+		{
+			"comment": "ignoreErrors: bool (optional)",
+			"match": "ignoreErrors",
+			"name": "entity.name.type"
+        },
+        {
+        }
+	],
+	"repository":{}
+}

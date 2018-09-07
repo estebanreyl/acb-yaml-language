@@ -1,0 +1,41 @@
+{
+    "name": "acbsnips",
+    "displayName": "acbSnips",
+    "description": "support for acb.yaml files",
+    "version": "0.0.1",
+    "publisher": "rey",
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "categories": [
+        "Snippets",
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+              "id": "acb.yaml",
+              "aliases": [
+                "Azure container build file"
+              ],
+              "filenamePatterns": [
+                "*.acb.yaml",
+                "acb.yaml"
+              ]
+            }
+        ],
+        "snippets": [
+            {
+                "language": "acb.yaml",
+                "path": "./snippets/snippets.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "acb.yaml",
+                "scopeName": "text.yaml",
+                "path": "./Grammars/grammar.json"
+            }
+        ]
+    }
+}
